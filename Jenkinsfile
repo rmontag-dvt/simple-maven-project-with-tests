@@ -1,4 +1,4 @@
-node ('master') { 
+node ('docker-build') { 
         checkout scm 
         stage('Build') { 
           withMaven(maven: 'M3') { 
