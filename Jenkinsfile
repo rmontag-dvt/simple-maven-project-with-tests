@@ -1,4 +1,4 @@
-node ('docker-build') { 
+node ('rs15') { 
         checkout scm 
         stage('Build') { 
           withMaven(maven: 'M3') { 
